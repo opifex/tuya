@@ -21,7 +21,7 @@ secondary_entities:
         name: sensor
         unit: kWh
         mapping:
-          - scale: 0.01
+          - scale: 100
   - entity: sensor
     name: Phase A voltage
     category: diagnostic
@@ -32,7 +32,7 @@ secondary_entities:
         name: sensor
         unit: V
         mapping:
-          - scale: 0.1
+          - scale: 10
   - entity: sensor
     name: Power of phase A
     category: diagnostic
@@ -43,7 +43,7 @@ secondary_entities:
         name: sensor
         unit: kW
         mapping:
-          - scale: 0.001
+          - scale: 1000
   - entity: sensor
     name: Phase A current
     category: diagnostic
@@ -54,4 +54,4 @@ secondary_entities:
         name: sensor
         unit: A
         mapping:
-          - scale: 0.001
+          - scale: 1000
