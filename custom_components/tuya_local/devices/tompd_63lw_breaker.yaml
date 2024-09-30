@@ -14,7 +14,7 @@ secondary_entities:
   - entity: sensor
     name: Total energy
     category: diagnostic
-    class: energy_storage
+    class: energy
     dps:
       - id: 1
         type: integer
